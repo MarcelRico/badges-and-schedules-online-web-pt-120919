@@ -24,5 +24,5 @@ def printer(names)
   room_assignments = assign_rooms(names)
   
   badges.collect{|badge|  puts badge}
-  room_assignments{|room| puts room}
+  room_assignments.collect{|room| puts room}
 end
