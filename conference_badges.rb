@@ -7,3 +7,7 @@ def batch_badge_creator(names)
   names.collect{|name| badge_message << badge_maker(name)}
   badge_message
 end
+
+def assign_rooms()
+  
+end
