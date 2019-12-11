@@ -21,5 +21,8 @@ end
 
 def printer(names)
   badges = batch_badge_creator(names)
-  puts assign_rooms(names)
+  room_assignments = assign_rooms(names)
+  
+  badges.collect{|badge|  puts badge}
+  room_assignments{|room| puts room}
 end
