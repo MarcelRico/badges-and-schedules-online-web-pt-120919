@@ -16,5 +16,5 @@ def assign_rooms(speakers)
     room_reservations << phrase
     room_number += 1
   end
-  pp room_reservations
+  room_reservations
 end
